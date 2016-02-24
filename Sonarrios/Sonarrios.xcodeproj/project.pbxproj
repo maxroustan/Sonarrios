@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D63C2248631BAC8A536C7B1 /* Pods_Sonarrios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE98F9CF3AC0FB9162F3CC4 /* Pods_Sonarrios.framework */; };
+		AD1209A61C7E259900549D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209A51C7E259900549D75 /* AppDelegate.swift */; };
+		AD1209A81C7E259900549D75 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209A71C7E259900549D75 /* MasterViewController.swift */; };
+		AD1209AA1C7E259900549D75 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209A91C7E259900549D75 /* DetailViewController.swift */; };
+		AD1209AD1C7E259900549D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209AB1C7E259900549D75 /* Main.storyboard */; };
+		AD1209AF1C7E259900549D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1209AE1C7E259900549D75 /* Assets.xcassets */; };
+		AD1209B21C7E259900549D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209B01C7E259900549D75 /* LaunchScreen.storyboard */; };
+		AD1209BD1C7E259900549D75 /* SonarriosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209BC1C7E259900549D75 /* SonarriosTests.swift */; };
+		AD1209C81C7E259900549D75 /* SonarriosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209C71C7E259900549D75 /* SonarriosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1209B91C7E259900549D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD12099A1C7E259900549D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1209A11C7E259900549D75;
+			remoteInfo = Sonarrios;
+		};
+		AD1209C41C7E259900549D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD12099A1C7E259900549D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1209A11C7E259900549D75;
+			remoteInfo = Sonarrios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D37EDD5F265165242A3B2C9 /* Pods-Sonarrios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sonarrios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sonarrios/Pods-Sonarrios.release.xcconfig"; sourceTree = "<group>"; };
+		3DE98F9CF3AC0FB9162F3CC4 /* Pods_Sonarrios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sonarrios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1209A21C7E259900549D75 /* Sonarrios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonarrios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1209A51C7E259900549D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD1209A71C7E259900549D75 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AD1209A91C7E259900549D75 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AD1209AC1C7E259900549D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD1209AE1C7E259900549D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1209B11C7E259900549D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD1209B31C7E259900549D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1209B81C7E259900549D75 /* SonarriosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarriosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1209BC1C7E259900549D75 /* SonarriosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarriosTests.swift; sourceTree = "<group>"; };
+		AD1209BE1C7E259900549D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1209C31C7E259900549D75 /* SonarriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1209C71C7E259900549D75 /* SonarriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarriosUITests.swift; sourceTree = "<group>"; };
+		AD1209C91C7E259900549D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2460A75152BF919ED451BC7 /* Pods-Sonarrios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sonarrios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sonarrios/Pods-Sonarrios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD12099F1C7E259900549D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D63C2248631BAC8A536C7B1 /* Pods_Sonarrios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1209B51C7E259900549D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1209C01C7E259900549D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1209991C7E259900549D75 = {
+			isa = PBXGroup;
+			children = (
+				AD1209A41C7E259900549D75 /* Sonarrios */,
+				AD1209BB1C7E259900549D75 /* SonarriosTests */,
+				AD1209C61C7E259900549D75 /* SonarriosUITests */,
+				AD1209A31C7E259900549D75 /* Products */,
+				D5FF35EC2697538713085977 /* Pods */,
+				C7130B8F189C06533FDD2FEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1209A31C7E259900549D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1209A21C7E259900549D75 /* Sonarrios.app */,
+				AD1209B81C7E259900549D75 /* SonarriosTests.xctest */,
+				AD1209C31C7E259900549D75 /* SonarriosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1209A41C7E259900549D75 /* Sonarrios */ = {
+			isa = PBXGroup;
+			children = (
+				AD1209A51C7E259900549D75 /* AppDelegate.swift */,
+				AD1209A71C7E259900549D75 /* MasterViewController.swift */,
+				AD1209A91C7E259900549D75 /* DetailViewController.swift */,
+				AD1209AB1C7E259900549D75 /* Main.storyboard */,
+				AD1209AE1C7E259900549D75 /* Assets.xcassets */,
+				AD1209B01C7E259900549D75 /* LaunchScreen.storyboard */,
+				AD1209B31C7E259900549D75 /* Info.plist */,
+			);
+			path = Sonarrios;
+			sourceTree = "<group>";
+		};
+		AD1209BB1C7E259900549D75 /* SonarriosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1209BC1C7E259900549D75 /* SonarriosTests.swift */,
+				AD1209BE1C7E259900549D75 /* Info.plist */,
+			);
+			path = SonarriosTests;
+			sourceTree = "<group>";
+		};
+		AD1209C61C7E259900549D75 /* SonarriosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1209C71C7E259900549D75 /* SonarriosUITests.swift */,
+				AD1209C91C7E259900549D75 /* Info.plist */,
+			);
+			path = SonarriosUITests;
+			sourceTree = "<group>";
+		};
+		C7130B8F189C06533FDD2FEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE98F9CF3AC0FB9162F3CC4 /* Pods_Sonarrios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5FF35EC2697538713085977 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2460A75152BF919ED451BC7 /* Pods-Sonarrios.debug.xcconfig */,
+				2D37EDD5F265165242A3B2C9 /* Pods-Sonarrios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1209A11C7E259900549D75 /* Sonarrios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1209CC1C7E259900549D75 /* Build configuration list for PBXNativeTarget "Sonarrios" */;
+			buildPhases = (
+				0A02A4B1F39CEEFF23D07A69 /* Check Pods Manifest.lock */,
+				AD12099E1C7E259900549D75 /* Sources */,
+				AD12099F1C7E259900549D75 /* Frameworks */,
+				AD1209A01C7E259900549D75 /* Resources */,
+				D7FC75278211DD886C7CB854 /* Embed Pods Frameworks */,
+				E9471D846A65DA6CE03EDBEB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sonarrios;
+			productName = Sonarrios;
+			productReference = AD1209A21C7E259900549D75 /* Sonarrios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1209B71C7E259900549D75 /* SonarriosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1209CF1C7E259900549D75 /* Build configuration list for PBXNativeTarget "SonarriosTests" */;
+			buildPhases = (
+				AD1209B41C7E259900549D75 /* Sources */,
+				AD1209B51C7E259900549D75 /* Frameworks */,
+				AD1209B61C7E259900549D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1209BA1C7E259900549D75 /* PBXTargetDependency */,
+			);
+			name = SonarriosTests;
+			productName = SonarriosTests;
+			productReference = AD1209B81C7E259900549D75 /* SonarriosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD1209C21C7E259900549D75 /* SonarriosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1209D21C7E259900549D75 /* Build configuration list for PBXNativeTarget "SonarriosUITests" */;
+			buildPhases = (
+				AD1209BF1C7E259900549D75 /* Sources */,
+				AD1209C01C7E259900549D75 /* Frameworks */,
+				AD1209C11C7E259900549D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1209C51C7E259900549D75 /* PBXTargetDependency */,
+			);
+			name = SonarriosUITests;
+			productName = SonarriosUITests;
+			productReference = AD1209C31C7E259900549D75 /* SonarriosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD12099A1C7E259900549D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = macs;
+				TargetAttributes = {
+					AD1209A11C7E259900549D75 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AD1209B71C7E259900549D75 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AD1209A11C7E259900549D75;
+					};
+					AD1209C21C7E259900549D75 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AD1209A11C7E259900549D75;
+					};
+				};
+			};
+			buildConfigurationList = AD12099D1C7E259900549D75 /* Build configuration list for PBXProject "Sonarrios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1209991C7E259900549D75;
+			productRefGroup = AD1209A31C7E259900549D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1209A11C7E259900549D75 /* Sonarrios */,
+				AD1209B71C7E259900549D75 /* SonarriosTests */,
+				AD1209C21C7E259900549D75 /* SonarriosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1209A01C7E259900549D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1209B21C7E259900549D75 /* LaunchScreen.storyboard in Resources */,
+				AD1209AF1C7E259900549D75 /* Assets.xcassets in Resources */,
+				AD1209AD1C7E259900549D75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1209B61C7E259900549D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1209C11C7E259900549D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A02A4B1F39CEEFF23D07A69 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7FC75278211DD886C7CB854 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sonarrios/Pods-Sonarrios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9471D846A65DA6CE03EDBEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sonarrios/Pods-Sonarrios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD12099E1C7E259900549D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1209AA1C7E259900549D75 /* DetailViewController.swift in Sources */,
+				AD1209A81C7E259900549D75 /* MasterViewController.swift in Sources */,
+				AD1209A61C7E259900549D75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1209B41C7E259900549D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1209BD1C7E259900549D75 /* SonarriosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1209BF1C7E259900549D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1209C81C7E259900549D75 /* SonarriosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD1209BA1C7E259900549D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1209A11C7E259900549D75 /* Sonarrios */;
+			targetProxy = AD1209B91C7E259900549D75 /* PBXContainerItemProxy */;
+		};
+		AD1209C51C7E259900549D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1209A11C7E259900549D75 /* Sonarrios */;
+			targetProxy = AD1209C41C7E259900549D75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1209AB1C7E259900549D75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1209AC1C7E259900549D75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD1209B01C7E259900549D75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1209B11C7E259900549D75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD1209CA1C7E259900549D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD1209CB1C7E259900549D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1209CD1C7E259900549D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2460A75152BF919ED451BC7 /* Pods-Sonarrios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sonarrios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.macs.Sonarrios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD1209CE1C7E259900549D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D37EDD5F265165242A3B2C9 /* Pods-Sonarrios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sonarrios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.macs.Sonarrios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD1209D01C7E259900549D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SonarriosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.macs.SonarriosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonarrios.app/Sonarrios";
+			};
+			name = Debug;
+		};
+		AD1209D11C7E259900549D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SonarriosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.macs.SonarriosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonarrios.app/Sonarrios";
+			};
+			name = Release;
+		};
+		AD1209D31C7E259900549D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SonarriosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.macs.SonarriosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sonarrios;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AD1209D41C7E259900549D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SonarriosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.macs.SonarriosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sonarrios;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD12099D1C7E259900549D75 /* Build configuration list for PBXProject "Sonarrios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1209CA1C7E259900549D75 /* Debug */,
+				AD1209CB1C7E259900549D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1209CC1C7E259900549D75 /* Build configuration list for PBXNativeTarget "Sonarrios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1209CD1C7E259900549D75 /* Debug */,
+				AD1209CE1C7E259900549D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1209CF1C7E259900549D75 /* Build configuration list for PBXNativeTarget "SonarriosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1209D01C7E259900549D75 /* Debug */,
+				AD1209D11C7E259900549D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1209D21C7E259900549D75 /* Build configuration list for PBXNativeTarget "SonarriosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1209D31C7E259900549D75 /* Debug */,
+				AD1209D41C7E259900549D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD12099A1C7E259900549D75 /* Project object */;
+}

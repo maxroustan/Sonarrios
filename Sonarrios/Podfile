@@ -1,0 +1,18 @@
+platform :ios, "8.0"
+use_frameworks!
+
+target 'Sonarrios’ do
+
+pod 'iOS-Slide-Menu', '~> 1.4.5'
+pod 'PureLayout'
+pod 'SVPullToRefresh'
+pod 'SVProgressHUD'
+pod 'Alamofire'
+pod 'ObjectMapper', '~> 1.0'
+pod 'AlamofireObjectMapper', '~> 2.0'
+pod 'ReachabilitySwift'
+pod 'DZNEmptyDataSet'
+pod 'ChameleonFramework'
+pod 'SBPickerSelector'
+
+end
