@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		2D63C2248631BAC8A536C7B1 /* Pods_Sonarrios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE98F9CF3AC0FB9162F3CC4 /* Pods_Sonarrios.framework */; };
 		AD1209A61C7E259900549D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209A51C7E259900549D75 /* AppDelegate.swift */; };
-		AD1209A81C7E259900549D75 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209A71C7E259900549D75 /* MasterViewController.swift */; };
-		AD1209AA1C7E259900549D75 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209A91C7E259900549D75 /* DetailViewController.swift */; };
-		AD1209AD1C7E259900549D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209AB1C7E259900549D75 /* Main.storyboard */; };
-		AD1209AF1C7E259900549D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1209AE1C7E259900549D75 /* Assets.xcassets */; };
-		AD1209B21C7E259900549D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209B01C7E259900549D75 /* LaunchScreen.storyboard */; };
 		AD1209BD1C7E259900549D75 /* SonarriosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209BC1C7E259900549D75 /* SonarriosTests.swift */; };
 		AD1209C81C7E259900549D75 /* SonarriosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209C71C7E259900549D75 /* SonarriosUITests.swift */; };
+		AD1209E01C7E27CC00549D75 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209DE1C7E27CC00549D75 /* DetailViewController.swift */; };
+		AD1209E11C7E27CC00549D75 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209DE1C7E27CC00549D75 /* DetailViewController.swift */; };
+		AD1209E21C7E27CC00549D75 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209DE1C7E27CC00549D75 /* DetailViewController.swift */; };
+		AD1209E31C7E27CC00549D75 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209DF1C7E27CC00549D75 /* MasterViewController.swift */; };
+		AD1209E41C7E27CC00549D75 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209DF1C7E27CC00549D75 /* MasterViewController.swift */; };
+		AD1209E51C7E27CC00549D75 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1209DF1C7E27CC00549D75 /* MasterViewController.swift */; };
+		AD1209E71C7E27E000549D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1209E61C7E27E000549D75 /* Assets.xcassets */; };
+		AD1209E81C7E27E000549D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1209E61C7E27E000549D75 /* Assets.xcassets */; };
+		AD1209E91C7E27E000549D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1209E61C7E27E000549D75 /* Assets.xcassets */; };
+		AD1209F91C7E282C00549D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209F51C7E282C00549D75 /* LaunchScreen.storyboard */; };
+		AD1209FA1C7E282C00549D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209F51C7E282C00549D75 /* LaunchScreen.storyboard */; };
+		AD1209FB1C7E282C00549D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209F51C7E282C00549D75 /* LaunchScreen.storyboard */; };
+		AD1209FC1C7E282C00549D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209F71C7E282C00549D75 /* Main.storyboard */; };
+		AD1209FD1C7E282C00549D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209F71C7E282C00549D75 /* Main.storyboard */; };
+		AD1209FE1C7E282C00549D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1209F71C7E282C00549D75 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +50,6 @@
 		3DE98F9CF3AC0FB9162F3CC4 /* Pods_Sonarrios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sonarrios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1209A21C7E259900549D75 /* Sonarrios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonarrios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1209A51C7E259900549D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD1209A71C7E259900549D75 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		AD1209A91C7E259900549D75 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		AD1209AC1C7E259900549D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD1209AE1C7E259900549D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AD1209B11C7E259900549D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD1209B31C7E259900549D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD1209B81C7E259900549D75 /* SonarriosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarriosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1209BC1C7E259900549D75 /* SonarriosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarriosTests.swift; sourceTree = "<group>"; };
@@ -52,6 +57,11 @@
 		AD1209C31C7E259900549D75 /* SonarriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1209C71C7E259900549D75 /* SonarriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarriosUITests.swift; sourceTree = "<group>"; };
 		AD1209C91C7E259900549D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1209DE1C7E27CC00549D75 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AD1209DF1C7E27CC00549D75 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AD1209E61C7E27E000549D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1209F61C7E282C00549D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD1209F81C7E282C00549D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2460A75152BF919ED451BC7 /* Pods-Sonarrios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sonarrios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sonarrios/Pods-Sonarrios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,12 +117,13 @@
 			isa = PBXGroup;
 			children = (
 				AD1209A51C7E259900549D75 /* AppDelegate.swift */,
-				AD1209A71C7E259900549D75 /* MasterViewController.swift */,
-				AD1209A91C7E259900549D75 /* DetailViewController.swift */,
-				AD1209AB1C7E259900549D75 /* Main.storyboard */,
-				AD1209AE1C7E259900549D75 /* Assets.xcassets */,
-				AD1209B01C7E259900549D75 /* LaunchScreen.storyboard */,
 				AD1209B31C7E259900549D75 /* Info.plist */,
+				AD1209DC1C7E27A600549D75 /* Interface */,
+				AD1209D71C7E276300549D75 /* Model */,
+				AD1209DD1C7E27B800549D75 /* Resources */,
+				AD1209D81C7E276300549D75 /* Services */,
+				AD1209D91C7E276300549D75 /* ViewControllers */,
+				AD1209DA1C7E276300549D75 /* Views */,
 			);
 			path = Sonarrios;
 			sourceTree = "<group>";
@@ -133,6 +144,53 @@
 				AD1209C91C7E259900549D75 /* Info.plist */,
 			);
 			path = SonarriosUITests;
+			sourceTree = "<group>";
+		};
+		AD1209D71C7E276300549D75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD1209D81C7E276300549D75 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AD1209D91C7E276300549D75 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD1209DF1C7E27CC00549D75 /* MasterViewController.swift */,
+				AD1209DE1C7E27CC00549D75 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD1209DA1C7E276300549D75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD1209DC1C7E27A600549D75 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				AD1209F51C7E282C00549D75 /* LaunchScreen.storyboard */,
+				AD1209F71C7E282C00549D75 /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		AD1209DD1C7E27B800549D75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD1209E61C7E27E000549D75 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C7130B8F189C06533FDD2FEF /* Frameworks */ = {
@@ -259,9 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD1209B21C7E259900549D75 /* LaunchScreen.storyboard in Resources */,
-				AD1209AF1C7E259900549D75 /* Assets.xcassets in Resources */,
-				AD1209AD1C7E259900549D75 /* Main.storyboard in Resources */,
+				AD1209FC1C7E282C00549D75 /* Main.storyboard in Resources */,
+				AD1209E71C7E27E000549D75 /* Assets.xcassets in Resources */,
+				AD1209F91C7E282C00549D75 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +327,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1209FD1C7E282C00549D75 /* Main.storyboard in Resources */,
+				AD1209E81C7E27E000549D75 /* Assets.xcassets in Resources */,
+				AD1209FA1C7E282C00549D75 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1209FE1C7E282C00549D75 /* Main.storyboard in Resources */,
+				AD1209E91C7E27E000549D75 /* Assets.xcassets in Resources */,
+				AD1209FB1C7E282C00549D75 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,9 +398,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD1209AA1C7E259900549D75 /* DetailViewController.swift in Sources */,
-				AD1209A81C7E259900549D75 /* MasterViewController.swift in Sources */,
 				AD1209A61C7E259900549D75 /* AppDelegate.swift in Sources */,
+				AD1209E01C7E27CC00549D75 /* DetailViewController.swift in Sources */,
+				AD1209E31C7E27CC00549D75 /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +409,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD1209BD1C7E259900549D75 /* SonarriosTests.swift in Sources */,
+				AD1209E11C7E27CC00549D75 /* DetailViewController.swift in Sources */,
+				AD1209E41C7E27CC00549D75 /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +419,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD1209C81C7E259900549D75 /* SonarriosUITests.swift in Sources */,
+				AD1209E21C7E27CC00549D75 /* DetailViewController.swift in Sources */,
+				AD1209E51C7E27CC00549D75 /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,20 +440,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD1209AB1C7E259900549D75 /* Main.storyboard */ = {
+		AD1209F51C7E282C00549D75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD1209AC1C7E259900549D75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AD1209B01C7E259900549D75 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD1209B11C7E259900549D75 /* Base */,
+				AD1209F61C7E282C00549D75 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD1209F71C7E282C00549D75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1209F81C7E282C00549D75 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
