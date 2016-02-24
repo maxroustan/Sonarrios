@@ -281,6 +281,7 @@
 				TargetAttributes = {
 					AD1209A11C7E259900549D75 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 32M7WGKX57;
 					};
 					AD1209B71C7E259900549D75 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -547,6 +548,7 @@
 			baseConfigurationReference = C2460A75152BF919ED451BC7 /* Pods-Sonarrios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Sonarrios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macs.Sonarrios;
@@ -559,6 +561,7 @@
 			baseConfigurationReference = 2D37EDD5F265165242A3B2C9 /* Pods-Sonarrios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Sonarrios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macs.Sonarrios;
